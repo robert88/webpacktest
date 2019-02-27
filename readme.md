@@ -25,6 +25,8 @@
 2、normalResorverFactory类
 3、contextResorverFactory类
 
+七 Dependency类
+
 六、庞大的options
 
 1、entry
