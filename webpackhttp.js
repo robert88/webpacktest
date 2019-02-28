@@ -14,12 +14,13 @@ function handleAction(req,res) {
           Module._cache[key]=null
         }
       }
-      const init =   require("./testwebpack.js");
+      //const init =   require("./testwebpack.js");
+      const init =   require("./test_tapable_by_jasmine.js");
       if(typeof init=="function"){
           init(req,res)
       }else{
-		  res.end("200")
-	  }
+  		  res.end("200");
+  	  }
 	}catch (e) {
         res.end(e.stack)
     }
