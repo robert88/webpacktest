@@ -35,7 +35,8 @@
 1、entry
 2、output
 3、module
-4、
+4、plugins
+5、resolve
 
 
 
