@@ -17,7 +17,8 @@
 
 三 webpack实际是个Compiler类
 
-1、compiler的hook执行顺序
+1、初始化
+2、执行过程
 
 四 Compilation类
 
