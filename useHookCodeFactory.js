@@ -11,7 +11,7 @@ var demoFactory = new HookCodeFactory();
 var factoryOptions = {
     type: "async",//对应call，callAsync、promise
     taps: [
-        { name: "a",context:true, fn: function () { console.log("a call") },type:"sync" },//fn不是必须
+        { name: "a",context:true, fn: function () { console.log("a call") },type:"sync" },//fn不是必须,type必须
         { name: "b", type:"sync" }
     ],//对应hook.taps
     interceptors: [
